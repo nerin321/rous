@@ -17,6 +17,11 @@ const config: Config = {
           "radial-gradient(circle, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%)",
         "header-img": "url('../public/Image.png')",
       },
+      screens: {
+        'xl': '1441px',
+        'lg': '1025px',
+        
+      },
     },
   },
   plugins: [],
