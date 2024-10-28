@@ -5,3 +5,7 @@ export { default as serviceImg } from "./serviec-img.png";
 export { default as houseIcon } from "./house-icon.png";
 export { default as walletIcon } from "./wallet-icon.png";
 export { default as chartIcon } from "./bar_chart.png";
+export { default as dataIcon } from "./database.png";
+export { default as Start } from "./Star.png";
+export { default as Avatar } from "./avatar.png";
+export { default as StoryIcon } from "./story-icon.png";

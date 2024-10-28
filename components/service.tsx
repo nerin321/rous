@@ -22,8 +22,8 @@ const Service = () => {
             improved customer experiences. Whether you’re looking to optimize
             financial processes or explore new market avenues.
           </p>
-          <div className="relative space-y-16">
-            <div className="absolute w-full px-12 py-10 space-y-6 -top-44 -left-52 rounded-2xl bg-white/10">
+          <div className="relative space-y-28">
+            <div className="absolute w-full py-12 space-y-10 px-14 -top-60 -left-52 rounded-2xl bg-white/10">
               <div className="flex items-center gap-4">
                 <img src={houseIcon.src} alt="" />
                 <p className="text-xl font-medium">

@@ -14,13 +14,13 @@ const config: Config = {
       },
       backgroundImage: {
         radial:
-          "radial-gradient(circle, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%)",
+          "radial-gradient(circle, rgba(255,255,255,0.2) 60%, rgba(255,255,255,0.1) 100%);",
         "header-img": "url('../public/Image.png')",
+        "mobile-img": "url('../public/mobile-img.png')",
       },
       screens: {
-        'xl': '1441px',
-        'lg': '1025px',
-        
+        xl: "1441px",
+        lg: "1025px",
       },
     },
   },
