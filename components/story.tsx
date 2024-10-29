@@ -9,7 +9,7 @@ const Story = () => {
         title="What Our Clients Are Saying"
         desc="At Rous, our clients' success is our top priority. Don’t just take our word for it hear from the businesses and leaders who have experienced the transformative power of our fintech solutions."
       />
-      <div className="grid grid-cols-2 mt-24 gap-14">
+      <div className="mb:grid-cols-2 mb:gap-14 mb:mt-24 grid gap-5 mt-5">
         <StoryItem
           img="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           name="Sarah Mitchell"

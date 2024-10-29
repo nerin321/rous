@@ -9,3 +9,4 @@ export { default as dataIcon } from "./database.png";
 export { default as Start } from "./Star.png";
 export { default as Avatar } from "./avatar.png";
 export { default as StoryIcon } from "./story-icon.png";
+export { default as PagesBg } from "./mobile-img.png";

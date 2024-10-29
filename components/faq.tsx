@@ -53,12 +53,12 @@ const faqItems: FAQItem[] = [
 
 const Faq = () => {
   return (
-    <section className="my-20">
+    <section className="mb:my-20 my-10">
       <HeaderSection
         title="Frequently Asked Questions"
         desc="Find answers to the most common questions about Rous's technology and fintech solutions. Whether you're curious about our services, security measures, pricing, or how our platform works."
       />
-      <div className="my-28 gap-14 grid grid-cols-2">
+      <div className="mb:my-28 mb:gap-14 mb:grid-cols-2 grid gap-5 my-10">
         {faqItems.map((item, id) => (
           <FaqItem key={id} title={item.title} desc={item.desc} />
         ))}

@@ -19,8 +19,11 @@ const config: Config = {
         "mobile-img": "url('../public/mobile-img.png')",
       },
       screens: {
-        xl: "1441px",
-        lg: "1025px",
+        xl: "1920px",
+        lap: "1600px",
+        lg: "1440px",
+        tb: "769px",
+        mb: "426px",
       },
     },
   },

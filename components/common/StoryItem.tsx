@@ -14,18 +14,22 @@ interface StoryItemProps {
 const StoryItem = ({ img, name, position, desc, start }: StoryItemProps) => {
   const [isClick, setIsClick] = useState(false);
   return (
-    <div className="px-16 py-12 space-y-8 text-base font-light bg-white/10 rounded-2xl">
+    <div className="mb:px-16 mb:py-12 bg-white/10 rounded-2xl mb:text-base p-3 text-xs font-light">
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-8">
-          <img className="object-cover rounded-full size-20" src={img} alt="" />
+        <div className="mb:gap-8 flex items-center gap-4 py-3">
+          <img
+            className="size-10 mb:size-20 object-cover rounded-full"
+            src={img}
+            alt=""
+          />
           <div>
-            <h3 className="text-2xl font-medium">{name}</h3>
+            <h3 className="mb:text-2xl text-sm font-medium">{name}</h3>
             <p>{position}</p>
           </div>
         </div>
         <img src={StoryIcon.src} alt="" />
       </div>
-      <p>{desc}</p>
+      <p className="py-3">{desc}</p>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           {[...Array(5)].map((_, index) => (
