@@ -21,7 +21,7 @@ export default function Nav() {
     <Disclosure as="nav">
       <div>
         <div className="relative flex items-center justify-between h-16">
-          <div className="sm:hidden absolute inset-y-0 left-0 flex items-center">
+          <div className="tb:hidden absolute inset-y-0 left-0 flex items-center">
             {/* Mobile menu button*/}
             <DisclosureButton className="group focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white relative inline-flex items-center justify-center p-2 text-gray-400 rounded-md">
               <span className="absolute -inset-0.5" />
@@ -36,8 +36,8 @@ export default function Nav() {
               />
             </DisclosureButton>
           </div>
-          <div className="sm:items-stretch sm:justify-between sm:w-1/2 flex items-center justify-center w-full">
-            <div className="sm:ml-6 sm:block hidden">
+          <div className="tb:items-stretch tb:justify-between tb:w-1/2 flex items-center justify-center w-full">
+            <div className="tb:ml-6 tb:block hidden">
               <div className="flex gap-4">
                 {navigation.map((item) => (
                   <a
@@ -59,7 +59,7 @@ export default function Nav() {
             </div>
           </div>
           <div>
-            <div className="sm:flex hidden gap-4">
+            <div className="tb:flex hidden gap-4">
               <button className="hover:border rounded-xl px-8 py-2 border-white">
                 Sign Up
               </button>
@@ -67,7 +67,7 @@ export default function Nav() {
                 Sign in
               </button>
             </div>
-            <Menu as="div" className="sm:hidden relative ml-3">
+            <Menu as="div" className="tb:hidden relative ml-3">
               <div>
                 <MenuButton className="focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 relative flex text-sm bg-gray-800 rounded-full">
                   <span className="absolute -inset-1.5" />
@@ -105,7 +105,7 @@ export default function Nav() {
         </div>
       </div>
 
-      <DisclosurePanel className="sm:hidden">
+      <DisclosurePanel className="tb:hidden">
         <div className="px-2 pt-2 pb-3 space-y-1">
           {navigation.map((item) => (
             <DisclosureButton

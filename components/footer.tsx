@@ -50,7 +50,7 @@ const Footer = () => {
             <p>Feedback</p>
           </div>
         </div>
-        <div className=" border-white/15 mb:gap-0 mb:flex-row flex flex-col items-center justify-between gap-5 pt-16 border-t-2">
+        <div className=" border-white/15 tb:gap-0 tb:flex-row flex flex-col items-center justify-between gap-5 pt-16 border-t-2">
           <h2 className="text-4xl">Rous</h2>
           <p className="text-white/60 text-xl">
             &copy; 2024 Lift Media. All Rights Reserved.{" "}

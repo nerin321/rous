@@ -7,9 +7,9 @@ interface HeaderSectionProps {
 
 function HeaderSection({ title, desc }: HeaderSectionProps) {
   return (
-    <div className="mb:w-7/12 sapce-y-2 mb:space-y-8 mx-auto text-center">
-      <h2 className="mb:text-6xl text-xl">{title}</h2>
-      <p className="mb:text-base text-xs">{desc}</p>
+    <div className="tb:w-7/12 sapce-y-2 mb:space-y-5 tb:space-y-8 mx-auto text-center">
+      <h2 className="tb:text-6xl mb:text-3xl text-xl">{title}</h2>
+      <p className="tb:text-base mb:text-sm text-xs">{desc}</p>
     </div>
   );
 }
